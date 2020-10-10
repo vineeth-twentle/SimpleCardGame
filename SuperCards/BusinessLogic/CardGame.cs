@@ -1,4 +1,4 @@
-﻿using SuperCards.BusinessEntities;
+using SuperCards.BusinessEntities;
 using SuperCards.Extensions;
 using SuperCards.Interfaces;
 using System;
@@ -31,10 +31,10 @@ namespace SuperCards.BusinessLogic
                             Console.WriteLine($"Cards remaining in the deck - {simpleCardDeckOperations.GetDeckCount()}");
                             break;
                         case (int)GameOptions.RESTART:
-                            simpleCardDeckOperations.ClearDeck();
-                            Console.WriteLine("Restarting game!");
                             Console.Clear();
-                            Start();
+                            simpleCardDeckOperations.ResetCardDeck();
+                            Console.WriteLine("New Game Started!");
+                            DisplayGameOptions();
                             break;
                         case (int)GameOptions.SHUFFLE:
                             simpleCardDeckOperations.Shuffle();
