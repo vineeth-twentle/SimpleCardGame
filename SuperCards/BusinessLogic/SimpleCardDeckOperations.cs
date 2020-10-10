@@ -10,6 +10,7 @@ using static SuperCards.Constants.SimpleCardConstants;
 
 namespace SuperCards.BusinessLogic
 {
+    //This class has implentation of functions specific to the simplecard properties and gameplay.
     public class SimpleCardDeckOperations : IDeckOperations<SimpleCard>
     {
         private Stack<SimpleCard> _cardDeck;
