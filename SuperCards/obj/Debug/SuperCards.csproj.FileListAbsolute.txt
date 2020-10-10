@@ -1,0 +1,7 @@
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\bin\Debug\SuperCards.exe.config
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\bin\Debug\SuperCards.exe
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\bin\Debug\SuperCards.pdb
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\obj\Debug\SuperCards.csprojAssemblyReference.cache
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\obj\Debug\SuperCards.csproj.CoreCompileInputs.cache
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\obj\Debug\SuperCards.exe
+C:\Users\insind894\Desktop\SVTH Personal\Code\SuperCards\SuperCards\obj\Debug\SuperCards.pdb
