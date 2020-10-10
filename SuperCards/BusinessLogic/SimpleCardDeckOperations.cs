@@ -1,4 +1,4 @@
-﻿using SuperCards.BusinessEntities;
+using SuperCards.BusinessEntities;
 using SuperCards.Extensions;
 using SuperCards.Interfaces;
 using System;
@@ -17,8 +17,7 @@ namespace SuperCards.BusinessLogic
         public SimpleCardDeckOperations()
         {
             _cardDeck = new Stack<SimpleCard>();
-            CreateCardDeck();
-            Shuffle();
+            InitializeDeck();
         }
 
         //This implementation creates a new card deck
@@ -64,6 +63,19 @@ namespace SuperCards.BusinessLogic
         public void ClearDeck()
         {
             _cardDeck.Clear();
+        }
+
+        //This function resets the card deck by clearing and recreating the deck.
+        public void ResetCardDeck()
+        {
+            ClearDeck();
+            InitializeDeck();
+        }
+        //This function initializes the deck with new set of cards.
+        private void InitializeDeck()
+        {
+            CreateCardDeck();
+            Shuffle();
         }
     }
 }
